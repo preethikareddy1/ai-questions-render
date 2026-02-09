@@ -20,7 +20,7 @@ from pymongo.errors import DuplicateKeyError
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 
-BASE_URL = "https://engage-pursuant-framed-attacked.trycloudflare.com"
+BASE_URL = "https://ai-questions-render1.onrender.com"
 
 # -----------------------------
 # MongoDB Connection

@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-pymongo
-pdfplumber
-python-docx
-reportlab
-python-dotenv
