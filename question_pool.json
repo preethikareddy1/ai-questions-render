@@ -1,0 +1,2555 @@
+{
+  "metadata": {
+    "job_id": "JD_001",
+    "domain": "UNKNOWN"
+  },
+  "questions": {
+    "technical": [
+      {
+        "id": "TECHNICAL_1",
+        "text": "What is the difference between supervised and unsupervised learning in machine learning?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_2",
+        "text": "Explain the concept of overfitting and how it can be mitigated.",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_3",
+        "text": "What are some common evaluation metrics for classification models?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_4",
+        "text": "Describe the role of feature engineering in machine learning and provide examples of techniques you might use.",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_5",
+        "text": "What are the differences between supervised and unsupervised learning in machine learning?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_6",
+        "text": "Explain the concept of overfitting in machine learning. How can it be prevented?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_7",
+        "text": "What are some common metrics used to evaluate the performance of a classification model?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_8",
+        "text": "Describe how gradient descent works. What are its limitations?",
+        "type": "technical",
+        "used": true
+      },
+      {
+        "id": "TECHNICAL_9",
+        "text": "Can you explain the key differences between RESTful APIs and SOAP-based APIs in the context of healthcare applications?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_10",
+        "text": "What are some common security practices you would implement to protect sensitive patient data in a Java application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_11",
+        "text": "Describe the role of Spring Boot in developing microservices architecture. How does it simplify the configuration and deployment process?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_12",
+        "text": "What is the purpose of using Hibernate/JPA in Java applications, and how do they facilitate database interactions?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_13",
+        "text": "Can you describe your experience with HL7 and FHIR standards? How have you implemented these standards in your previous projects?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_14",
+        "text": "Explain how you would handle transactions in a Java application using Spring's transaction management. What are the implications of using different transaction propagation levels?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_15",
+        "text": "What is the significance of using Docker and Kubernetes in the deployment of healthcare applications, particularly in terms of scalability and reliability?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_16",
+        "text": "What is the role of middleware in healthcare applications, and how does it facilitate data integration across different systems?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_17",
+        "text": "Discuss how you would implement OAuth 2.0 for securing a healthcare application. What are the key components involved?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_18",
+        "text": "Can you explain the differences between JPA and Hibernate? How do you manage transactions using these frameworks?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_19",
+        "text": "What are the key components of the Spring Framework, and how do they interact with each other?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_20",
+        "text": "How do you ensure compliance with healthcare standards such as HIPAA and FHIR in your Java applications?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_21",
+        "text": "What is the role of Microservices architecture in enterprise applications, and what are its advantages over monolithic architecture?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_22",
+        "text": "Can you explain the concept of Dependency Injection in Spring and how it differs from traditional object creation?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_23",
+        "text": "What are the differences between synchronous and asynchronous messaging, and when would you use each in a healthcare application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_24",
+        "text": "Explain the role of Spring Boot Actuator in monitoring and managing Spring Boot applications.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_25",
+        "text": "Can you discuss how you would implement logging in a Spring Boot application, and what tools you would use to analyze logs?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_26",
+        "text": "What are the key differences between Spring MVC and Spring Boot, and when would you choose one over the other in a healthcare application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_27",
+        "text": "Explain the role of Hibernate in a Java application and how it can be configured to ensure compliance with HIPAA regulations.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_28",
+        "text": "Can you describe how RESTful APIs work and the importance of statelessness in a healthcare application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_29",
+        "text": "How do you implement OAuth 2.0 in a Spring Boot application? Please describe the key components involved.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_30",
+        "text": "What are the advantages of using microservices architecture in healthcare applications over monolithic architecture?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_31",
+        "text": "Can you explain the purpose of using Spring Batch in handling large volumes of healthcare data?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_32",
+        "text": "What is the role of FHIR in healthcare interoperability, and how would you implement it in a Java application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_33",
+        "text": "Explain the differences between Spring Boot and traditional Spring Framework. Why would you choose Spring Boot for developing healthcare applications?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_34",
+        "text": "What are the key features of RESTful APIs, and how do you implement them in a Spring Boot application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_35",
+        "text": "Can you describe the process of implementing OAuth 2.0 in a Java-based application? What are the key components involved?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_36",
+        "text": "What are the compliance standards (like HIPAA, HL7, FHIR) that you need to consider when developing healthcare applications? How do you ensure compliance in your code?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_37",
+        "text": "What is the Microservices architecture? How does it differ from a monolithic architecture, especially in the context of healthcare applications?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_38",
+        "text": "Discuss how you would handle data migration from an old healthcare system to a new one. What challenges might you face?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_39",
+        "text": "What are some best practices for securing sensitive patient data in Java applications?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_40",
+        "text": "How do you manage dependencies in a Spring Boot application, and what role does Maven or Gradle play in this process?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_41",
+        "text": "Explain the differences between JPA and Hibernate. When would you prefer one over the other?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_42",
+        "text": "What are the key features of Spring Boot that make it suitable for developing microservices?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_43",
+        "text": "Describe how you would implement security in a Spring Boot application handling sensitive patient data.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_44",
+        "text": "Can you explain what RESTful services are and how they differ from SOAP?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_45",
+        "text": "What are some of the common design patterns you have used in Java applications, and how do they improve code quality?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_46",
+        "text": "What are the key differences between SQL and NoSQL databases, and in what scenarios might you choose to use one over the other?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_47",
+        "text": "What is the purpose of using Spring AOP (Aspect-Oriented Programming), and how have you implemented it in your projects?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_48",
+        "text": "Discuss how you would implement logging in a Spring Boot application to track user access to sensitive healthcare information.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_49",
+        "text": "What are the key differences between Hibernate and JPA, and when would you choose one over the other in a healthcare application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_50",
+        "text": "Explain how OAuth 2.0 works and how you would implement it for securing RESTful APIs in a healthcare system.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_51",
+        "text": "What are the main compliance standards in healthcare applications, and how would you ensure your Java application adheres to HIPAA regulations?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_52",
+        "text": "Describe the microservices architecture and its advantages in developing healthcare applications. What challenges might arise?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_53",
+        "text": "What is FHIR, and how does it facilitate interoperability between healthcare systems? Provide an example of its implementation.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_54",
+        "text": "What strategies would you employ to ensure the security of sensitive patient data in a Java-based application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_55",
+        "text": "How do you handle transactions in a Spring Boot application, especially when integrating multiple microservices that need to maintain consistency?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_56",
+        "text": "What are the key differences between Spring MVC and Spring Boot?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_57",
+        "text": "Explain how you would implement error handling in a Spring Boot microservices architecture. What practices would you follow?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_58",
+        "text": "Can you explain the differences between REST and SOAP web services, and when you would choose one over the other in a healthcare application context?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_59",
+        "text": "What are the key considerations when optimizing the performance of a Java-based healthcare application that handles sensitive patient data?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_60",
+        "text": "Explain the key differences between RESTful APIs and SOAP web services, and under what circumstances you would choose one over the other in a healthcare application.",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_61",
+        "text": "Describe how you would implement a microservices architecture for a healthcare system that includes patient management and appointment scheduling. What considerations would you make for data consistency and service communication?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_62",
+        "text": "Can you explain the differences between Spring MVC and Spring Boot? When would you choose one over the other in a healthcare application?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_63",
+        "text": "How do you ensure that your Java applications are compliant with HIPAA regulations when handling sensitive patient data?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_64",
+        "text": "Can you explain the differences between REST and SOAP web services, and when you would choose one over the other in a healthcare application context?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_65",
+        "text": "What are some best practices you would recommend for securing a Java-based healthcare application that handles sensitive patient data?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_66",
+        "text": "Explain the differences between RESTful APIs and SOAP-based web services. In what scenarios would you prefer one over the other, particularly in the healthcare domain?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_67",
+        "text": "Discuss the role of microservices architecture in healthcare applications. What are some potential challenges you might face while implementing it?",
+        "type": "technical",
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_5281f57e",
+        "text": "Explain the differences between REST and SOAP web services. When would you choose one over the other in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "REST",
+          "SOAP",
+          "web services"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_6b855fbf",
+        "text": "How do you ensure compliance with HIPAA standards when developing healthcare applications? Provide specific examples.",
+        "type": "technical",
+        "keywords": [
+          "HIPAA",
+          "compliance",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_aad9008d",
+        "text": "Describe how Spring Boot simplifies the development of microservices. What are the key features that support microservices architecture?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_e8585342",
+        "text": "What are the key differences between SQL and NoSQL databases, and how would you decide which one to use in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "databases"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_8b862aa6",
+        "text": "Can you explain the role of JPA and Hibernate in Java applications? How do they facilitate database interactions?",
+        "type": "technical",
+        "keywords": [
+          "JPA",
+          "Hibernate",
+          "database"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_e213ecfb",
+        "text": "In the context of healthcare applications, explain the significance of FHIR and HL7 standards. How do they impact data interoperability?",
+        "type": "technical",
+        "keywords": [
+          "FHIR",
+          "HL7",
+          "interoperability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_b9f99bdc",
+        "text": "Discuss how you would implement security measures for a healthcare application that handles sensitive patient information. What frameworks and practices would you use?",
+        "type": "technical",
+        "keywords": [
+          "security",
+          "healthcare",
+          "patient data"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_d7bfcc9c",
+        "text": "What are the key differences between Hibernate and JPA? Can you explain how to configure a Hibernate session factory?",
+        "type": "technical",
+        "keywords": [
+          "Hibernate",
+          "JPA",
+          "configuration"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_411202dd",
+        "text": "Can you explain the Spring Boot autoconfiguration feature and how it simplifies application development?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "autoconfiguration",
+          "application development"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_1ed850cc",
+        "text": "What are the main principles of RESTful API design? How do you implement authentication and authorization in a RESTful service?",
+        "type": "technical",
+        "keywords": [
+          "RESTful API",
+          "authentication",
+          "authorization"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_cc4a2b11",
+        "text": "Describe how you would implement a microservices architecture for a healthcare application. What considerations would you take into account for data consistency and service communication?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "architecture",
+          "data consistency"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_436440fa",
+        "text": "What is the role of Spring Security in a Spring application? Can you outline the steps to secure a REST API using Spring Security?",
+        "type": "technical",
+        "keywords": [
+          "Spring Security",
+          "REST API",
+          "security"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_7b133faa",
+        "text": "Explain the concept of dependency injection in Spring. How does it enhance the testability of your application?",
+        "type": "technical",
+        "keywords": [
+          "dependency injection",
+          "Spring",
+          "testability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_7e293e44",
+        "text": "What are the differences between SQL and NoSQL databases, and in which scenarios would you choose one over the other in healthcare applications?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "databases"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_4f67af66",
+        "text": "Explain how you would design a microservices architecture for a healthcare application that handles patient records. What considerations would you take into account for scalability and security?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "scalability",
+          "security"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_f1d772d1",
+        "text": "What are the key differences between REST and SOAP APIs, and in what scenarios would you prefer one over the other, particularly in the healthcare domain?",
+        "type": "technical",
+        "keywords": [
+          "REST",
+          "SOAP",
+          "APIs",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_f83d4318",
+        "text": "Describe how you would implement OAuth 2.0 for securing RESTful APIs in a healthcare application. What roles do client, resource server, and authorization server play?",
+        "type": "technical",
+        "keywords": [
+          "OAuth 2.0",
+          "security",
+          "RESTful APIs"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_6902ec6b",
+        "text": "How do you ensure compliance with healthcare regulations like HIPAA when developing applications? Can you provide specific examples?",
+        "type": "technical",
+        "keywords": [
+          "HIPAA",
+          "compliance",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_16c6c80d",
+        "text": "Explain the role of Spring Boot in developing microservices. What features of Spring Boot do you find most useful for healthcare applications?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_3049b367",
+        "text": "What strategies would you use to optimize the performance of Java applications handling large datasets in a healthcare context?",
+        "type": "technical",
+        "keywords": [
+          "performance",
+          "Java",
+          "large datasets"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_257ae75f",
+        "text": "Describe the process of implementing a CI/CD pipeline for a Java-based healthcare application. What tools and practices would you recommend?",
+        "type": "technical",
+        "keywords": [
+          "CI/CD",
+          "pipeline",
+          "Java",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_9eb22deb",
+        "text": "Explain the differences between REST and SOAP web services. When would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "REST",
+          "SOAP",
+          "web services"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_799e8178",
+        "text": "Describe how Spring Boot simplifies the development of microservices. What are some of its key features?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "development"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_c9eadcf6",
+        "text": "What is the purpose of the Spring AOP framework? Can you provide an example of how you would use it in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "Spring AOP",
+          "aspect-oriented programming",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_068d53cd",
+        "text": "What are the key differences between SQL and NoSQL databases? In what scenarios would you prefer one over the other in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "databases"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_ab51cb23",
+        "text": "Explain the role of Docker in application development and deployment. How would you use Docker in a healthcare project?",
+        "type": "technical",
+        "keywords": [
+          "Docker",
+          "application deployment",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_3d68ba49",
+        "text": "What are the key differences between Spring MVC and Spring Boot, and when would you choose one over the other in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "Spring MVC",
+          "Spring Boot",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_ebed4499",
+        "text": "Can you explain the importance of HIPAA compliance in healthcare applications and how you would ensure compliance in your Java application design?",
+        "type": "technical",
+        "keywords": [
+          "HIPAA",
+          "compliance",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_40f67ced",
+        "text": "Describe how you would implement a RESTful API for a patient management system. What are the key considerations you need to take into account?",
+        "type": "technical",
+        "keywords": [
+          "RESTful API",
+          "patient management",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_7b07f655",
+        "text": "What are FHIR and HL7, and how do they differ in terms of data interoperability in healthcare systems?",
+        "type": "technical",
+        "keywords": [
+          "FHIR",
+          "HL7",
+          "interoperability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_1f5b79e2",
+        "text": "Explain how you would use Docker and Kubernetes to deploy a Java-based healthcare application. What are the benefits of using these technologies?",
+        "type": "technical",
+        "keywords": [
+          "Docker",
+          "Kubernetes",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_835b6880",
+        "text": "How would you implement OAuth 2.0 in a Java application to secure APIs that expose sensitive patient information?",
+        "type": "technical",
+        "keywords": [
+          "OAuth 2.0",
+          "Java",
+          "API security"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_1d630b60",
+        "text": "Explain the differences between Hibernate and JPA. How does Hibernate implement JPA specifications?",
+        "type": "technical",
+        "keywords": [
+          "Hibernate",
+          "JPA"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_40cb154c",
+        "text": "What are the key differences between SQL and NoSQL databases? In what scenarios would you prefer one over the other in a healthcare application?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_b5b14218",
+        "text": "Can you explain the concept of microservices architecture? What are the main advantages and challenges when implementing microservices in a healthcare system?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_ddfa88b4",
+        "text": "Discuss the importance of using OAuth 2.0 in securing APIs in a healthcare application. What are its main components?",
+        "type": "technical",
+        "keywords": [
+          "OAuth 2.0",
+          "API security"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a57e9ec8",
+        "text": "What is FHIR and how does it facilitate interoperability in healthcare applications? Provide examples of its usage.",
+        "type": "technical",
+        "keywords": [
+          "FHIR",
+          "interoperability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_3daf3a44",
+        "text": "Explain the differences between Java 8 and Java 11. What new features were introduced in Java 11 that are not present in Java 8?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_4a73bf7d",
+        "text": "How do you implement a RESTful API in Spring Boot? What are some common annotations you would use?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "RESTful API",
+          "annotations"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_12c8484e",
+        "text": "What is the purpose of the 'volatile' keyword in Java? When would you use it?",
+        "type": "technical",
+        "keywords": [
+          "volatile",
+          "Java",
+          "threads"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_d1042ce0",
+        "text": "Describe the differences between SQL and NoSQL databases. In what scenarios would you choose a NoSQL database like MongoDB over a relational database?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "MongoDB"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_8e57a866",
+        "text": "What are design patterns and why are they important in software development? Can you give examples of two design patterns you have used?",
+        "type": "technical",
+        "keywords": [
+          "design patterns",
+          "importance",
+          "examples"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_1d16dca8",
+        "text": "What are the main differences between Java 8 and Java 11 features?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_bcb2e4b6",
+        "text": "Can you explain the role of Spring Boot in microservices architecture?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_aec86add",
+        "text": "What are Java Collections and how do they differ from Arrays?",
+        "type": "technical",
+        "keywords": [
+          "Java Collections",
+          "Arrays",
+          "differences"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_ef553386",
+        "text": "How do you implement error handling in a Spring Boot RESTful service?",
+        "type": "technical",
+        "keywords": [
+          "error handling",
+          "Spring Boot",
+          "RESTful service"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_64c22340",
+        "text": "Explain the concept of dependency injection and how it is achieved in Spring.",
+        "type": "technical",
+        "keywords": [
+          "dependency injection",
+          "Spring",
+          "concept"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_0397e1c1",
+        "text": "What are the differences between SQL and NoSQL databases, and when would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "differences"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a454b618",
+        "text": "How do you ensure that your Java application is thread-safe? Provide examples.",
+        "type": "technical",
+        "keywords": [
+          "thread safety",
+          "Java",
+          "examples"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_863e100d",
+        "text": "What are some key differences between Java 8 and Java 11, particularly in terms of features and performance improvements?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_76cb3e39",
+        "text": "Can you explain how the Spring Boot framework simplifies Java application development and what are its core features?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "framework",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_330d0382",
+        "text": "What is the significance of the Java Collections Framework, and how would you choose between using a List, Set, or Map?",
+        "type": "technical",
+        "keywords": [
+          "Java Collections",
+          "List",
+          "Set",
+          "Map"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_4be93b77",
+        "text": "Explain the concept of Dependency Injection in Spring and how it improves code maintainability.",
+        "type": "technical",
+        "keywords": [
+          "Dependency Injection",
+          "Spring",
+          "maintainability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a9feb2f5",
+        "text": "What are some best practices for writing clean and maintainable code in Java, and how do design patterns play a role?",
+        "type": "technical",
+        "keywords": [
+          "clean code",
+          "maintainability",
+          "design patterns"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_dd9a51f7",
+        "text": "What are the main differences between Java 8 and Java 11? Can you highlight any significant new features introduced in Java 11?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_60280938",
+        "text": "Explain the concept of Dependency Injection in Spring. How does it improve the flexibility and testability of your code?",
+        "type": "technical",
+        "keywords": [
+          "Spring",
+          "Dependency Injection",
+          "flexibility",
+          "testability"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_d0d0c9e3",
+        "text": "What are microservices, and how do they differ from a monolithic architecture? What are some advantages and disadvantages of using microservices?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "monolithic",
+          "architecture",
+          "advantages",
+          "disadvantages"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_d73c392d",
+        "text": "How do you handle exception management in a Spring Boot application? Can you give an example of a global exception handler?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "exception management",
+          "global exception handler"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_c851a908",
+        "text": "What is the purpose of the @Transactional annotation in Spring? How does it help manage transactions in a database?",
+        "type": "technical",
+        "keywords": [
+          "@Transactional",
+          "Spring",
+          "transactions",
+          "database"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_e19f5fe9",
+        "text": "Can you explain how the Java Collections Framework works? What are the differences between List, Set, and Map?",
+        "type": "technical",
+        "keywords": [
+          "Java Collections Framework",
+          "List",
+          "Set",
+          "Map"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_19b8f5cb",
+        "text": "What are the main differences between Java 8 and Java 11, and how might these differences affect the development of a Microservices architecture?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "Microservices"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_02315449",
+        "text": "Can you explain the Spring Framework's Inversion of Control (IoC) and Dependency Injection (DI) concepts?",
+        "type": "technical",
+        "keywords": [
+          "Spring",
+          "IoC",
+          "DI"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_e8d9e7e3",
+        "text": "What design patterns are commonly used in Java applications, and can you provide examples of how you have used them in your projects?",
+        "type": "technical",
+        "keywords": [
+          "design patterns",
+          "Java",
+          "examples"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a83db6d3",
+        "text": "Describe how you would implement a RESTful service in Spring Boot. What annotations are essential, and what configuration steps are necessary?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "RESTful",
+          "annotations"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_aaf0b0fb",
+        "text": "Explain the concept of microservices architecture and the advantages it offers over a monolithic application structure.",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "architecture",
+          "monolithic"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_c8967721",
+        "text": "What are the key differences between SQL and NoSQL databases? When would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "database design"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_9f3d42fa",
+        "text": "What are the main differences between Java 8 and Java 11? Please highlight key features and improvements.",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "Java 11",
+          "features"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_9c991af0",
+        "text": "Explain the concept of Dependency Injection in Spring. How does it differ from traditional object creation?",
+        "type": "technical",
+        "keywords": [
+          "Dependency Injection",
+          "Spring",
+          "object creation"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_40f5fc0a",
+        "text": "Can you describe how you would implement a RESTful service using Spring Boot? What annotations would you use?",
+        "type": "technical",
+        "keywords": [
+          "RESTful",
+          "Spring Boot",
+          "annotations"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_4fdcb552",
+        "text": "What are design patterns? Can you discuss the Singleton and Factory patterns and provide examples of where you might use them?",
+        "type": "technical",
+        "keywords": [
+          "design patterns",
+          "Singleton",
+          "Factory"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a4e8aa6f",
+        "text": "What is the purpose of the Spring Boot Actuator? How can it help in monitoring and managing your application?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "Actuator",
+          "monitoring"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_630fdd73",
+        "text": "Describe the difference between SQL and NoSQL databases. In what scenarios would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "SQL",
+          "NoSQL",
+          "databases"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_d732d4b8",
+        "text": "Explain the differences between J2EE and Spring Framework. Why would you choose Spring for building enterprise applications?",
+        "type": "technical",
+        "keywords": [
+          "J2EE",
+          "Spring Framework"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_15ee173f",
+        "text": "What are the main advantages of using microservices architecture over monolithic architecture?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_094fe35f",
+        "text": "Describe how you would implement error handling in a RESTful web service built with Spring Boot.",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "REST",
+          "error handling"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_78bd9a46",
+        "text": "What is the purpose of using JPA in a Java application, and how does it differ from Hibernate?",
+        "type": "technical",
+        "keywords": [
+          "JPA",
+          "Hibernate"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_dbd92b1b",
+        "text": "Can you explain the role of the Garbage Collector in Java and how it works with memory management?",
+        "type": "technical",
+        "keywords": [
+          "Garbage Collector",
+          "memory management"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_7a55c163",
+        "text": "What are design patterns, and can you name a few commonly used design patterns in Java applications?",
+        "type": "technical",
+        "keywords": [
+          "design patterns",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_93e01111",
+        "text": "Explain the differences between a HashMap and a Hashtable in Java. In what scenarios would you prefer one over the other?",
+        "type": "technical",
+        "keywords": [
+          "Java",
+          "HashMap",
+          "Hashtable"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_3641f03c",
+        "text": "What are the key features introduced in Java 8? Can you give examples of how you would use streams and lambda expressions?",
+        "type": "technical",
+        "keywords": [
+          "Java 8",
+          "streams",
+          "lambda expressions"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_e1be32d4",
+        "text": "Describe the Spring Boot architecture and how it simplifies the development of Java applications compared to traditional Spring applications.",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "architecture",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_dedd5227",
+        "text": "What is dependency injection in Spring? Explain how it works and the advantages it provides in application development.",
+        "type": "technical",
+        "keywords": [
+          "Spring",
+          "dependency injection",
+          "advantage"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_b206cf86",
+        "text": "What are microservices, and how do they differ from a monolithic architecture? What are the advantages and disadvantages of using a microservices approach?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "monolithic",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_bd447b98",
+        "text": "Explain the concept of concurrency in Java. How do you handle thread safety when multiple threads access shared resources?",
+        "type": "technical",
+        "keywords": [
+          "concurrency",
+          "threads",
+          "thread safety"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_2f456f8d",
+        "text": "Explain the differences between Spring MVC and Spring Boot. In what scenarios would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "Spring MVC",
+          "Spring Boot",
+          "frameworks"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_9ffe02ca",
+        "text": "What are microservices, and how do they differ from a monolithic architecture?",
+        "type": "technical",
+        "keywords": [
+          "microservices",
+          "monolithic",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_96d27b5d",
+        "text": "Describe the Java Collections Framework. What are the main interfaces, and how do they differ from one another?",
+        "type": "technical",
+        "keywords": [
+          "Java Collections",
+          "interfaces",
+          "collections"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_fa207666",
+        "text": "What is the role of the Garbage Collector in Java? How does it work, and what are some common issues related to it?",
+        "type": "technical",
+        "keywords": [
+          "Garbage Collector",
+          "Java",
+          "memory management"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_95c8245c",
+        "text": "What is RESTful architecture? Describe the principles behind REST and how they apply to web services.",
+        "type": "technical",
+        "keywords": [
+          "RESTful",
+          "architecture",
+          "web services"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_36ec96c1",
+        "text": "Explain the concept of dependency injection in Spring. How does it promote loose coupling in your applications?",
+        "type": "technical",
+        "keywords": [
+          "dependency injection",
+          "Spring",
+          "loose coupling"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_8e2563c8",
+        "text": "Explain the differences between REST and SOAP web services. When would you choose one over the other?",
+        "type": "technical",
+        "keywords": [
+          "REST",
+          "SOAP",
+          "web services"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_f3fea2bf",
+        "text": "What are the advantages of using Spring Boot over traditional Spring Framework in microservices architecture?",
+        "type": "technical",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "Spring Framework"
+        ],
+        "used": false
+      },
+      {
+        "id": "TECHNICAL_a3460046",
+        "text": "What are Java Streams and how do they enable functional-style programming in Java? Provide an example of how to use a stream to filter a collection.",
+        "type": "technical",
+        "keywords": [
+          "Java Streams",
+          "functional programming",
+          "filter"
+        ],
+        "used": false
+      }
+    ],
+    "scenario": [
+      {
+        "id": "SCENARIO_1",
+        "text": "You are given a dataset with missing values. Describe the steps you would take to handle this issue before training a machine learning model.",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_2",
+        "text": "Imagine you need to build a data pipeline that processes streaming data in real-time. What components would you include in your architecture, and why?",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_3",
+        "text": "You are tasked with optimizing an existing machine learning model. What steps would you take to evaluate and improve its performance?",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_4",
+        "text": "You have a dataset with missing values. Describe the steps you would take to handle these missing values before training a machine learning model.",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_5",
+        "text": "Imagine you need to build a data pipeline for processing streaming data. What architecture would you choose and why?",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_6",
+        "text": "You have to choose between using TensorFlow and PyTorch for implementing a deep learning model. What factors would influence your decision?",
+        "type": "scenario",
+        "used": true
+      },
+      {
+        "id": "SCENARIO_7",
+        "text": "Imagine you need to integrate a new third-party healthcare API into an existing Java application. What steps would you take to ensure a smooth integration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_8",
+        "text": "You are tasked with improving the performance of an existing Java application that processes healthcare claims. What strategies would you consider?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_9",
+        "text": "You encounter a situation where a healthcare application is not compliant with HIPAA regulations. How would you approach identifying and resolving these compliance issues?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_10",
+        "text": "You are leading a code review for a new feature that involves patient data management. What specific areas would you focus on to ensure best practices are followed?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_11",
+        "text": "You receive a performance issue report for a healthcare application. Describe the steps you would take to diagnose and resolve the issue.",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_12",
+        "text": "How would you handle integrating a new third-party API into an existing healthcare system that is already using multiple microservices?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_13",
+        "text": "Imagine you need to migrate an existing monolithic healthcare application to a cloud-native microservices architecture. What steps would you take to plan and execute this migration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_14",
+        "text": "You have a requirement to implement security for a RESTful web service in a healthcare application. What approach would you take, and what tools would you use?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_15",
+        "text": "You need to design a microservices architecture for a healthcare application that handles sensitive patient data. What key considerations would you take into account for security and regulatory compliance?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_16",
+        "text": "You are tasked with integrating a third-party EHR system into your application. What steps would you take to ensure successful data exchange and compliance with FHIR standards?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_17",
+        "text": "Imagine you encounter a performance bottleneck in a healthcare application. What steps would you take to diagnose and resolve the issue?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_18",
+        "text": "You need to implement a real-time data processing pipeline for patient monitoring data. What technologies and patterns would you use, and why?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_19",
+        "text": "You are tasked with integrating a new third-party healthcare API into an existing Java application. What steps would you take to ensure a smooth integration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_20",
+        "text": "Imagine you have a performance issue in a Java application that processes patient data. What steps would you take to identify and resolve the issue?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_21",
+        "text": "You need to implement a feature that allows patients to update their profiles. What considerations would you have regarding data validation and security?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_22",
+        "text": "You are leading a team of junior developers. How would you approach conducting a code review to ensure best practices are followed?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_23",
+        "text": "You are tasked with integrating a new third-party healthcare API into an existing Java application. What steps would you take to ensure a smooth integration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_24",
+        "text": "Imagine you are experiencing performance issues in a Java application that processes large amounts of healthcare data. What steps would you take to diagnose and resolve the issue?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_25",
+        "text": "You have been asked to ensure that a Java application complies with HIPAA regulations. What specific measures would you implement in the application?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_26",
+        "text": "You need to migrate a healthcare application from on-premises servers to a cloud platform (AWS). What factors do you need to consider during this migration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_27",
+        "text": "You are tasked with optimizing a healthcare application that is facing performance issues due to slow database queries. What steps would you take to identify and resolve these issues?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_28",
+        "text": "Imagine you need to integrate a third-party EHR system with your Java application. What approaches would you consider for ensuring secure and efficient data exchange?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_29",
+        "text": "You need to design a system that logs all access to patient data. How would you approach this in your Java application to ensure compliance and security?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_30",
+        "text": "You are leading a team that is implementing a new feature in a healthcare application. How would you ensure that the feature complies with HL7 standards?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_31",
+        "text": "You are tasked with developing a RESTful API for a healthcare application. How would you ensure compliance with HIPAA regulations during the design and implementation of this API?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_32",
+        "text": "Imagine you have a healthcare application that needs to integrate with a third-party system via an API. Describe the steps you would take to ensure secure and efficient data exchange.",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_33",
+        "text": "Imagine you are tasked with integrating a new third-party EHR system into an existing healthcare application. What steps would you take to ensure compliance with HIPAA and FHIR standards during this integration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_34",
+        "text": "You discover a security vulnerability in a Java application that processes patient claims. What immediate actions would you take to mitigate the risk, and how would you ensure compliance with security standards?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_35",
+        "text": "You are tasked with ensuring that a healthcare application complies with HIPAA regulations. What specific security measures would you implement in the application's architecture to protect sensitive patient data?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_36",
+        "text": "You encounter a performance issue where a microservice responsible for processing patient claims is responding slowly. What steps would you take to identify the bottleneck and optimize its performance?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_37",
+        "text": "Imagine you are tasked with integrating a legacy EHR system with a new microservices-based patient management system. What steps would you take to ensure interoperability and compliance with HL7 and FHIR standards?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_38",
+        "text": "You are experiencing performance issues in a Java-based application that handles large volumes of patient data. What techniques would you use to identify bottlenecks and optimize performance?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_39",
+        "text": "Imagine you need to integrate a new third-party healthcare API for patient data retrieval. What steps would you take to ensure compliance with HIPAA and FHIR standards during this integration?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_40",
+        "text": "You are tasked with optimizing a slow-performing Java application that processes healthcare claims. What steps would you take to identify and resolve the performance bottlenecks?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_41",
+        "text": "You are tasked with integrating a new third-party healthcare application that uses HL7 messaging standards. Describe the steps you would take to ensure seamless data exchange and compliance with healthcare regulations.",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_42",
+        "text": "Imagine you encounter performance issues with a Java-based healthcare application handling sensitive patient data. What steps would you take to identify and resolve these performance bottlenecks?",
+        "type": "scenario",
+        "used": false
+      },
+      {
+        "id": "SCENARIO_91426e78",
+        "text": "You need to integrate a new third-party payment processing service into an existing healthcare application. What steps would you take to ensure a smooth integration?",
+        "type": "scenario",
+        "keywords": [
+          "integration",
+          "third-party",
+          "payment processing"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_607bc7b0",
+        "text": "You are tasked with optimizing a Java application that processes patient data but is currently experiencing performance issues. What strategies would you employ to improve its performance?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_2e90c9c1",
+        "text": "You are tasked with optimizing an existing Java application that handles large volumes of patient data. What steps would you take to identify and resolve performance bottlenecks?",
+        "type": "scenario",
+        "keywords": [
+          "optimization",
+          "performance",
+          "bottlenecks"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_120b20e7",
+        "text": "Imagine you need to integrate a third-party health service into your application using FHIR standards. What steps would you take to ensure interoperability?",
+        "type": "scenario",
+        "keywords": [
+          "interoperability",
+          "FHIR",
+          "integration"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_261f26f7",
+        "text": "You are tasked with integrating a new third-party API into an existing healthcare application. What steps would you take to ensure minimal disruption to the current system?",
+        "type": "scenario",
+        "keywords": [
+          "integration",
+          "API",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_eeaf7c48",
+        "text": "You are tasked with integrating a new third-party healthcare API into an existing Java application. What steps would you take to ensure compliance with HIPAA while doing this?",
+        "type": "scenario",
+        "keywords": [
+          "HIPAA",
+          "API integration",
+          "healthcare"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_f993de5a",
+        "text": "You notice that a healthcare application is running slowly during peak usage times. What strategies would you implement to optimize its performance?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization",
+          "healthcare application"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_97dcc7b1",
+        "text": "You are leading a team of developers working on a healthcare application that must comply with FHIR standards. How would you ensure that your team follows best practices?",
+        "type": "scenario",
+        "keywords": [
+          "FHIR",
+          "compliance",
+          "best practices"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_b3b976cf",
+        "text": "You are tasked with integrating a new third-party API into an existing healthcare application. What steps would you take to ensure that the integration is secure and does not violate patient data privacy?",
+        "type": "scenario",
+        "keywords": [
+          "API integration",
+          "security",
+          "patient data"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_fd2e9c10",
+        "text": "You notice that a Java application handling patient data is experiencing performance issues. What diagnostic steps would you take to identify and resolve the performance bottleneck?",
+        "type": "scenario",
+        "keywords": [
+          "performance issues",
+          "diagnostics",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_71f05a74",
+        "text": "Imagine you are leading a code review for a healthcare application. What specific aspects would you focus on to ensure compliance and code quality?",
+        "type": "scenario",
+        "keywords": [
+          "code review",
+          "compliance",
+          "code quality"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_8220a7bd",
+        "text": "You are tasked with designing a RESTful API for a healthcare application. What strategies would you use to ensure compliance with HIPAA regulations?",
+        "type": "scenario",
+        "keywords": [
+          "RESTful API",
+          "HIPAA"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_9ce04115",
+        "text": "You are leading a team to integrate a new third-party system into an existing healthcare application. Describe the approach you would take to manage this integration.",
+        "type": "scenario",
+        "keywords": [
+          "integration",
+          "third-party system"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_6389fff3",
+        "text": "Imagine you have to optimize the performance of a healthcare application that is experiencing slow response times. What steps would you take to diagnose and resolve these issues?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_09c6b138",
+        "text": "You have a microservice that is experiencing performance issues under high load. Describe the steps you would take to identify and resolve these performance bottlenecks.",
+        "type": "scenario",
+        "keywords": [
+          "microservices",
+          "performance",
+          "bottlenecks"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_5ab1be98",
+        "text": "Imagine you are leading a team that is struggling to adhere to coding standards. How would you approach this situation to improve code quality?",
+        "type": "scenario",
+        "keywords": [
+          "coding standards",
+          "leadership",
+          "code quality"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_4461d1c6",
+        "text": "You need to implement a feature that requires significant changes to existing code. Explain how you would approach modernizing the complex code while minimizing risks.",
+        "type": "scenario",
+        "keywords": [
+          "modernization",
+          "complex code",
+          "risk management"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_2b4ae668",
+        "text": "You have a legacy Java application that is performing poorly under high load. What steps would you take to analyze and improve its performance?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "legacy application",
+          "analysis"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_20a47010",
+        "text": "How would you design a microservice that handles user authentication? What technologies would you choose?",
+        "type": "scenario",
+        "keywords": [
+          "microservice",
+          "authentication",
+          "design"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_b96f24a2",
+        "text": "You need to optimize a Java microservice that is experiencing performance bottlenecks under high load. What steps would you take to analyze and improve its performance?",
+        "type": "scenario",
+        "keywords": [
+          "microservices",
+          "performance",
+          "optimization"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_b726f15d",
+        "text": "Describe how you would design a RESTful API for a simple e-commerce application. What considerations would you take into account for scalability and security?",
+        "type": "scenario",
+        "keywords": [
+          "RESTful API",
+          "design",
+          "scalability",
+          "security"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_e5ab9144",
+        "text": "You've been tasked with migrating a traditional monolithic application to a microservices architecture. What challenges do you anticipate and how would you address them?",
+        "type": "scenario",
+        "keywords": [
+          "monolithic",
+          "microservices",
+          "migration",
+          "challenges"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_d1a91eeb",
+        "text": "You are tasked with designing a REST API for a bookstore. Describe the endpoints you would create and the HTTP methods you would use for operations like creating, retrieving, updating, and deleting books.",
+        "type": "scenario",
+        "keywords": [
+          "REST API",
+          "HTTP methods",
+          "design"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_6ae26a13",
+        "text": "Imagine you are facing performance issues in a Java application. What steps would you take to identify and resolve these bottlenecks?",
+        "type": "scenario",
+        "keywords": [
+          "performance issues",
+          "Java application",
+          "bottlenecks"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_66ef4f4f",
+        "text": "You need to optimize a Java application that is experiencing performance bottlenecks. What steps would you take to identify and resolve these issues?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_77cc56ac",
+        "text": "Imagine you are leading a team that is facing a technical blocker. How would you approach the situation to help your team progress?",
+        "type": "scenario",
+        "keywords": [
+          "technical lead",
+          "blockers",
+          "team management"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_1a282492",
+        "text": "You are tasked with optimizing a Java application that has performance bottlenecks. What steps would you take to identify and resolve these issues?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization",
+          "bottlenecks"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_5db70760",
+        "text": "Suppose you need to implement microservices architecture for an existing monolithic application. What key considerations would you take into account?",
+        "type": "scenario",
+        "keywords": [
+          "microservices",
+          "monolithic",
+          "architecture"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_58967711",
+        "text": "You are tasked with optimizing a Spring Boot application that suffers from performance issues under high traffic. What steps would you take to identify and resolve these issues?",
+        "type": "scenario",
+        "keywords": [
+          "Spring Boot",
+          "performance",
+          "optimization"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_a6e7b9e2",
+        "text": "During a code review, you notice that a colleague has used a complex nested loop to process data. How would you suggest optimizing this code?",
+        "type": "scenario",
+        "keywords": [
+          "code review",
+          "optimization",
+          "complexity"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_381b11f0",
+        "text": "You are tasked with optimizing a Java application that is experiencing performance issues. What steps would you take to identify and resolve the bottlenecks?",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "optimization",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_4695bdf2",
+        "text": "You need to design a system that handles a high volume of requests. How would you ensure the application is scalable and can handle increased traffic?",
+        "type": "scenario",
+        "keywords": [
+          "scalability",
+          "high volume",
+          "design"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_ac5a6046",
+        "text": "You are experiencing performance issues in a Java application. Describe how you would approach diagnosing and resolving these issues.",
+        "type": "scenario",
+        "keywords": [
+          "performance",
+          "diagnosis",
+          "Java application"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_031913de",
+        "text": "Imagine you need to migrate a monolithic application to a microservices architecture. What steps would you take to ensure a smooth transition?",
+        "type": "scenario",
+        "keywords": [
+          "migration",
+          "monolithic",
+          "microservices"
+        ],
+        "used": false
+      },
+      {
+        "id": "SCENARIO_f8e6e615",
+        "text": "You are tasked with implementing a message-driven architecture using Kafka. Describe how you would set up Kafka producers and consumers, and how you would handle message failure.",
+        "type": "scenario",
+        "keywords": [
+          "Kafka",
+          "producers",
+          "consumers",
+          "message failure"
+        ],
+        "used": false
+      }
+    ],
+    "coding": [
+      {
+        "id": "CODING_1",
+        "text": "Write a Python function that takes a list of numbers and returns a list of the squares of those numbers.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_2",
+        "text": "Implement a simple linear regression model from scratch in Python, without using any machine learning libraries.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_3",
+        "text": "Given a dataset in a CSV file, write a Python script that reads the file and outputs the summary statistics for each numerical column.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_4",
+        "text": "Write a Python function that takes a list of numbers and returns the list sorted in ascending order using the quicksort algorithm.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_5",
+        "text": "Implement a function in Python that takes a Pandas DataFrame and normalizes its numerical columns.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_6",
+        "text": "Given a list of integers, write a Python function to find the maximum product of any two distinct integers in the list.",
+        "type": "coding",
+        "used": true
+      },
+      {
+        "id": "CODING_7",
+        "text": "Write a Java function that takes a list of patient records and returns a list of records filtered by a specific condition, such as age greater than 65.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_8",
+        "text": "Create a simple RESTful API endpoint in Spring Boot that allows users to retrieve patient information based on a patient ID.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_9",
+        "text": "Write a Java method using Spring Boot to create a RESTful API endpoint that retrieves patient information based on a patient ID.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_10",
+        "text": "Given a list of patient records in JSON format, write a Java function that validates the records for compliance with HIPAA regulations.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_11",
+        "text": "Write a JUnit test case for a service method that retrieves patient data from a database using Hibernate.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_12",
+        "text": "Write a simple Java method that validates an HL7 message format and returns true if it is valid.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_13",
+        "text": "Given a list of patient records in JSON format, write a Java function that filters out records where the patient is under 18 years old.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_14",
+        "text": "Write a SQL query to retrieve all patient records from a PostgreSQL database that have not been modified in the last year.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_15",
+        "text": "Create a simple Spring Boot REST API endpoint that allows users to submit a new patient record.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_16",
+        "text": "Write a simple Spring Boot REST controller that handles patient information retrieval. Include an endpoint that fetches a patient's details based on their ID.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_17",
+        "text": "Given a list of patient records stored in a SQL database, write a SQL query to find patients who have not had any appointments in the last year.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_18",
+        "text": "Demonstrate how to set up a simple JPA entity for a 'Patient' class, including fields such as ID, name, date of birth, and contact information.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_19",
+        "text": "Write a Java method that takes a List of integers and returns a new List containing only the even numbers.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_20",
+        "text": "Given a string input, write a Java function that returns the first non-repeated character. If there is no non-repeated character, return null.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_21",
+        "text": "Implement a simple Java class that represents a patient in a healthcare system, including attributes like name, age, and medical history, and provide methods to access and modify these attributes.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_22",
+        "text": "Write a Java method that fetches patient data from a relational database using JPA, ensuring it handles exceptions and returns appropriate responses.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_23",
+        "text": "Implement a simple REST controller in Spring Boot that allows for CRUD operations on a patient entity.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_24",
+        "text": "Given a JSON payload representing patient information, write a Java class that maps this JSON to a patient object using Jackson.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_25",
+        "text": "Write a SQL query to retrieve all patients who have appointments scheduled in the next 30 days from a 'patients' table.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_26",
+        "text": "Write a simple Java method using Spring Boot that retrieves patient information from a database using JPA. Assume the patient entity has fields like id, name, and age.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_27",
+        "text": "Write a Java method using Spring Boot that takes a patient ID as input and retrieves the corresponding patient information from a SQL database. Include exception handling.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_28",
+        "text": "Write a Java method that retrieves patient records from a database using Hibernate, applying pagination to limit the results to 10 records per page. Include exception handling for database access.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_29",
+        "text": "Write a Java method that takes a list of patient records and filters out any records that do not meet certain compliance criteria (e.g., missing required fields).",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_30",
+        "text": "Write a Java method that retrieves a list of patients from a database using Hibernate, ensuring that sensitive patient information is adequately handled.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_31",
+        "text": "Write a Java method using Spring Boot that accepts patient data and validates it against HIPAA compliance rules. Include error handling for invalid data.",
+        "type": "coding",
+        "used": false
+      },
+      {
+        "id": "CODING_cf7d37fb",
+        "text": "Write a Java method that retrieves patient records from a database using JPA and returns the records in a list. Include error handling.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "JPA",
+          "database"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_c2a10ad8",
+        "text": "Write a Java method to validate an HL7 message format. What key elements would you check in the validation process?",
+        "type": "coding",
+        "keywords": [
+          "HL7",
+          "validation",
+          "Java"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_557bee7b",
+        "text": "Write a Java method that takes a list of patient records (as objects) and returns a list of unique patient IDs. Use appropriate data structures for efficiency.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "collections",
+          "data structures"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_036fcdda",
+        "text": "Given a JSON object representing a patient's details, write a Java function to validate the required fields and return any missing fields.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "JSON",
+          "validation"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_a17f8e46",
+        "text": "Write a Java method to fetch a list of patients from a database using Hibernate. Include error handling and logging.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Hibernate",
+          "database"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_e9a8329d",
+        "text": "Implement a simple RESTful API endpoint in Spring Boot to retrieve patient information by patient ID. Include appropriate request and response handling.",
+        "type": "coding",
+        "keywords": [
+          "Spring Boot",
+          "RESTful API",
+          "patient information"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_9768f80c",
+        "text": "Write a Java method that retrieves patient records from a SQL database using Hibernate. Make sure to include error handling.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Hibernate",
+          "SQL"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_0f03741f",
+        "text": "Write a Java method that takes a list of patient records and filters out those that are marked as inactive. Use Java Streams for this.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Streams"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_4687d16f",
+        "text": "Write a simple Spring Boot controller that handles a GET request to retrieve patient information by ID. Include error handling for non-existent IDs.",
+        "type": "coding",
+        "keywords": [
+          "Spring Boot",
+          "controller"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_80368a34",
+        "text": "Write a Java method that takes a List of integers and returns a new List containing only the even integers from the original List.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "List",
+          "even integers"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_547cdf89",
+        "text": "Implement a Java function that checks if a given string is a palindrome.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "palindrome",
+          "string"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_d139f25e",
+        "text": "Write a Java method that checks if a given string is a palindrome.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "palindrome",
+          "coding"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_0f2984db",
+        "text": "Write a Java method that demonstrates how to handle multi-threading using the ExecutorService framework. Include error handling and resource management.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "multi-threading",
+          "ExecutorService"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_c55ab875",
+        "text": "Write a JUnit test case for a method that calculates the factorial of a given number. Ensure you cover edge cases and validate the output.",
+        "type": "coding",
+        "keywords": [
+          "JUnit",
+          "test case",
+          "factorial"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_1159e691",
+        "text": "Write a Java method that takes a List of integers and returns a new List containing only the even numbers from the original List.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "List",
+          "even numbers"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_d9ef8d22",
+        "text": "Implement a simple Java class that uses the Singleton design pattern. Provide a method to get the instance of the class.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Singleton",
+          "design pattern"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_e37476de",
+        "text": "Write a simple Java program that demonstrates the use of Collections and Threads. Include an example of a concurrent collection.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Collections",
+          "Threads"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_9289b934",
+        "text": "Given a large dataset stored in a relational database, write a Java method that retrieves and processes this data efficiently. Consider using JDBC.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "JDBC",
+          "relational database"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_366b5f4d",
+        "text": "Write a Java method that takes a List of integers and returns a new List containing only the even numbers.",
+        "type": "coding",
+        "keywords": [
+          "coding",
+          "Java",
+          "List"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_1bd85302",
+        "text": "Write a Java function that uses a thread to calculate the factorial of a given number asynchronously.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "thread",
+          "factorial"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_73ab01c6",
+        "text": "Write a Java method that takes a List of integers and returns a new List containing only the even numbers from the original List.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "Collections",
+          "stream"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_e36d0d73",
+        "text": "Implement a simple Java program that demonstrates the use of multithreading by creating two threads that count from 1 to 5 and print each number with a delay.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "multithreading",
+          "threads"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_f9084009",
+        "text": "Write a Java method that takes an array of integers and returns a new array containing only the even numbers.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "arrays",
+          "even numbers"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_bcdcf692",
+        "text": "Implement a simple RESTful API using Spring Boot that allows users to create, read, update, and delete (CRUD) items in a list.",
+        "type": "coding",
+        "keywords": [
+          "Spring Boot",
+          "RESTful API",
+          "CRUD"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_00e2251c",
+        "text": "Write a Java method that takes a List of integers and returns a List of integers that are unique (i.e., appear only once in the original list).",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "collections",
+          "unique elements"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_3bb4e2bc",
+        "text": "Implement a simple Java program that demonstrates the use of threads. The program should create multiple threads that print numbers from 1 to 10.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "threads",
+          "multithreading"
+        ],
+        "used": false
+      },
+      {
+        "id": "CODING_841f7605",
+        "text": "Write a Java function that takes a list of integers and returns a list containing only the even numbers from the input list.",
+        "type": "coding",
+        "keywords": [
+          "Java",
+          "collections",
+          "even numbers"
+        ],
+        "used": false
+      }
+    ]
+  }
+}

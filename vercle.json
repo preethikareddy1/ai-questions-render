@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "question_api.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "question_api.py"
+    }
+  ]
+}

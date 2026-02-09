@@ -1,0 +1,168 @@
+{
+  "0985a05c": {
+    "questions": [
+      {
+        "type": "technical",
+        "text": "Explain the differences between Spring MVC and Spring Boot. In what scenarios would you choose one over the other?",
+        "keywords": [
+          "Spring MVC",
+          "Spring Boot",
+          "frameworks"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "What are microservices, and how do they differ from a monolithic architecture?",
+        "keywords": [
+          "microservices",
+          "monolithic",
+          "architecture"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "Describe the Java Collections Framework. What are the main interfaces, and how do they differ from one another?",
+        "keywords": [
+          "Java Collections",
+          "interfaces",
+          "collections"
+        ]
+      },
+      {
+        "type": "coding",
+        "text": "Write a Java method that takes a List of integers and returns a List of integers that are unique (i.e., appear only once in the original list).",
+        "keywords": [
+          "Java",
+          "collections",
+          "unique elements"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "What is the role of the Garbage Collector in Java? How does it work, and what are some common issues related to it?",
+        "keywords": [
+          "Garbage Collector",
+          "Java",
+          "memory management"
+        ]
+      },
+      {
+        "type": "scenario",
+        "text": "You are experiencing performance issues in a Java application. Describe how you would approach diagnosing and resolving these issues.",
+        "keywords": [
+          "performance",
+          "diagnosis",
+          "Java application"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "What is RESTful architecture? Describe the principles behind REST and how they apply to web services.",
+        "keywords": [
+          "RESTful",
+          "architecture",
+          "web services"
+        ]
+      },
+      {
+        "type": "coding",
+        "text": "Implement a simple Java program that demonstrates the use of threads. The program should create multiple threads that print numbers from 1 to 10.",
+        "keywords": [
+          "Java",
+          "threads",
+          "multithreading"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "Explain the concept of dependency injection in Spring. How does it promote loose coupling in your applications?",
+        "keywords": [
+          "dependency injection",
+          "Spring",
+          "loose coupling"
+        ]
+      },
+      {
+        "type": "scenario",
+        "text": "Imagine you need to migrate a monolithic application to a microservices architecture. What steps would you take to ensure a smooth transition?",
+        "keywords": [
+          "migration",
+          "monolithic",
+          "microservices"
+        ]
+      }
+    ],
+    "candidate_email": "preethikareddy523@gmail.com",
+    "candidate_name": "Preethika Reddy",
+    "job_role": "Java Developer",
+    "completed": false,
+    "meeting": {
+      "date": "2026-02-08",
+      "slot": 2,
+      "start": "2026-02-08T04:00:00",
+      "end": "2026-02-08T08:00:00",
+      "ics_file": "invites\\preethikareddy523_gmail.com.ics"
+    }
+  },
+  "242b847a": {
+    "questions": [
+      {
+        "type": "technical",
+        "text": "Explain the differences between REST and SOAP web services. When would you choose one over the other?",
+        "keywords": [
+          "REST",
+          "SOAP",
+          "web services"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "What are the advantages of using Spring Boot over traditional Spring Framework in microservices architecture?",
+        "keywords": [
+          "Spring Boot",
+          "microservices",
+          "Spring Framework"
+        ]
+      },
+      {
+        "type": "coding",
+        "text": "Write a Java function that takes a list of integers and returns a list containing only the even numbers from the input list.",
+        "keywords": [
+          "Java",
+          "collections",
+          "even numbers"
+        ]
+      },
+      {
+        "type": "scenario",
+        "text": "You are tasked with implementing a message-driven architecture using Kafka. Describe how you would set up Kafka producers and consumers, and how you would handle message failure.",
+        "keywords": [
+          "Kafka",
+          "producers",
+          "consumers",
+          "message failure"
+        ]
+      },
+      {
+        "type": "technical",
+        "text": "What are Java Streams and how do they enable functional-style programming in Java? Provide an example of how to use a stream to filter a collection.",
+        "keywords": [
+          "Java Streams",
+          "functional programming",
+          "filter"
+        ]
+      }
+    ],
+    "candidate_email": "preethikareddy523@gmail.com",
+    "candidate_name": "Preethika Reddy",
+    "job_role": "Position   Role Sr Core Java Developer",
+    "completed": false,
+    "meeting": {
+      "date": "2026-02-09",
+      "slot": 5,
+      "start": "2026-02-09T16:00:00",
+      "end": "2026-02-09T20:00:00",
+      "ics_file": "invites\\preethikareddy523_gmail.com.ics"
+    }
+  }
+}
