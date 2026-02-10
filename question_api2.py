@@ -490,7 +490,7 @@ def start_interview(interview_id: str):
         raise HTTPException(status_code=404, detail="Invalid interview link")
 
     return RedirectResponse(
-    url=f"{BASE_URL}/docs"
+        url=f"{BASE_URL}/interview-ui/{interview_id}"
     )
 
     return {
