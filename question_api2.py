@@ -490,7 +490,7 @@ def start_interview(interview_id: str):
         raise HTTPException(status_code=404, detail="Invalid interview link")
 
     return RedirectResponse(
-        url=f"{BASE_URL}/interview-ui/{interview_id}"
+    url=f"{BASE_URL}/docs"
     )
 
     return {
@@ -786,5 +786,27 @@ def finalize_interview_backend(interview_id: str = Form(...)):
         "message": "Interview finalized successfully",
         "finalized_at": dt.datetime.utcnow().isoformat()
     }
+@app.get("/interview-ui/{interview_id}", response_class=HTMLResponse)
+def interview_ui(interview_id: str):
+    interview_links = load_interview_links()
+
+    if interview_id not in interview_links:
+        return "<h2>Invalid Interview Link</h2>"
+
+    return f"""
+    <html>
+    <head>
+        <title>Interview</title>
+    </head>
+    <body>
+        <h2>Welcome {interview_links[interview_id]['candidate_name']}</h2>
+        <p>Role: {interview_links[interview_id]['job_role']}</p>
+
+        <p>Interview ID: {interview_id}</p>
+
+        <p><b>Interview will start here.</b></p>
+    </body>
+    </html>
+    """
 
 
