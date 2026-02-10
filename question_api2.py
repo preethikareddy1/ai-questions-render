@@ -791,22 +791,47 @@ def interview_ui(interview_id: str):
     interview_links = load_interview_links()
 
     if interview_id not in interview_links:
-        return "<h2>Invalid Interview Link</h2>"
+        return "<h2>Invalid or expired interview link</h2>"
+
+    data = interview_links[interview_id]
+
+    questions_html = "".join(
+        f"<li>{q}</li>" for q in data["questions"]
+    )
 
     return f"""
     <html>
     <head>
         <title>Interview</title>
+        <script>
+            window.onload = function() {{
+                fetch("/start-interview", {{
+                    method: "POST",
+                    headers: {{
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    }},
+                    body: "interview_id={interview_id}"
+                }});
+            }};
+        </script>
     </head>
-    <body>
-        <h2>Welcome {interview_links[interview_id]['candidate_name']}</h2>
-        <p>Role: {interview_links[interview_id]['job_role']}</p>
 
-        <p>Interview ID: {interview_id}</p>
+    <body style="font-family: Arial; margin:40px;">
+        <h2>Welcome {data['candidate_name']}</h2>
+        <p><b>Role:</b> {data['job_role']}</p>
+        <p><b>Interview ID:</b> {interview_id}</p>
 
-        <p><b>Interview will start here.</b></p>
+        <h3>Questions</h3>
+        <ol>
+            {questions_html}
+        </ol>
+
+        <p style="color:green; margin-top:20px;">
+            ✅ Interview has started
+        </p>
     </body>
     </html>
     """
+
 
 
