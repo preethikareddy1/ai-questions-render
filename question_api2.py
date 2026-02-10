@@ -14,11 +14,12 @@ from fastapi.responses import HTMLResponse
 import datetime as dt
 from booking import make_ics
 from pymongo import MongoClient
-import smtplib
-from email.message import EmailMessage
 from pymongo.errors import DuplicateKeyError
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
+import os
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail
 
 BASE_URL = "https://ai-questions-render1.onrender.com"
 
@@ -163,49 +164,6 @@ def clean_role_title(role: str) -> str:
     return role.strip().title()
 
 
-
-
-def send_interview_email(to_email, candidate_name, job_role,
-                          interview_date, slot_time,
-                          interview_link, ics_file):
-
-    msg = EmailMessage()
-    msg["Subject"] = job_role
-    msg["From"] = "dasariharikrishna01@gmail.com"
-    msg["To"] = to_email
-
-    msg.set_content(f"""
-Hello {candidate_name},
-
-Your interview has been scheduled.
-
-Role: {job_role}
-Date: {interview_date}
-Time: {slot_time}
-
-Interview Link:
-{interview_link}
-
-Please find the calendar invite attached.
-
-Best regards,
-HR Team
-""")
-
-    # attach calendar invite
-    with open(ics_file, "rb") as f:
-        msg.add_attachment(
-            f.read(),
-            maintype="text",
-            subtype="calendar",
-            filename="interview.ics"
-        )
-
-    # Gmail SMTP (use App Password)
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login("preethikareddy68@gmail.com", "xkpfrsbsyxxfeyjb")
-        server.send_message(msg)
-
 def generate_qa_pdf(interview_id, candidate_name, job_role, qa_text):
     base_dir = Path(f"interviews/{interview_id}")
     base_dir.mkdir(parents=True, exist_ok=True)
@@ -321,6 +279,43 @@ def validate_answers(expected_questions, qa_pairs):
         })
 
     return results, answered, skipped
+def send_interview_email(
+    to_email: str,
+    candidate_name: str,
+    job_role: str,
+    interview_date: str,
+    slot_time: str,
+    interview_link: str
+):
+    message = Mail(
+        from_email=os.getenv("FROM_EMAIL"),
+        to_emails=to_email,
+        subject=f"Interview Scheduled – {job_role}",
+        html_content=f"""
+        <p>Hello <b>{candidate_name}</b>,</p>
+
+        <p>Your interview has been scheduled.</p>
+
+        <ul>
+          <li><b>Role:</b> {job_role}</li>
+          <li><b>Date:</b> {interview_date}</li>
+          <li><b>Time:</b> {slot_time}</li>
+        </ul>
+
+        <p>
+          👉 <a href="{interview_link}">
+          Click here to start your interview
+          </a>
+        </p>
+
+        <p>Best regards,<br>HR Team</p>
+        """
+    )
+
+    sg = SendGridAPIClient(os.getenv("SENDGRID_API_KEY"))
+    sg.send(message)
+
+
 
 
 # --------------------------------------------------
@@ -402,14 +397,14 @@ def schedule_meeting(
     )
 
     send_interview_email(
-        to_email=db_record["candidate_email"],
-        candidate_name=db_record["candidate_name"],
-        job_role=db_record["job_role"],
-        interview_date=db_record["interview_date"],
-        slot_time=db_record["slot_time"],
-        interview_link=db_record["interview_link"],
-        ics_file=db_record["ics_file"]
+    to_email=db_record["candidate_email"],
+    candidate_name=db_record["candidate_name"],
+    job_role=db_record["job_role"],
+    interview_date=db_record["interview_date"],
+    slot_time=db_record["slot_time"],
+    interview_link=db_record["interview_link"]
     )
+
 
     return {
         "message": "Meeting scheduled successfully",
